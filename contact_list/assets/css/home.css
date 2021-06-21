@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+    background-image: linear-gradient(to left,#a8ff78,#78ffd6);
+    /*background-image: linear-gradient(#a8ff78,#78ffd6);*/
+}
+#contact-list-head{
+    font-family: Stencil Std, fantasy;
+}
+#contact-list{
+    position: relative;
+    margin: 2% 23%;
+    width:50%;
+    list-style: none;
+}
+#contact-list li{
+    display:flex;
+    /*justify-content: space-between;*/
+    padding: 0% 4%;
+    background-color:#faf1e6;
+    margin:10px;
+}
+#contact-list li:hover{
+    background-color:#00ead3;
+}
+#contact-list #contact-details{
+    display:flex;
+    justify-content: space-between;
+    width:90%;
+}
+#contact-list #delete-icon{
+    display:flex;
+    width:10%;
+    justify-content: center;
+    margin:3% 0%;
+    color:red;
+    visibility: hidden;
+}
+#contact-list li:hover  #delete-icon{
+    visibility: visible;
+}
+
+/*
+.name{
+    
+
+
+}
+.phone{
+
+}
+*/
+/*
+#delete-icon{
+    visibility: hidden;
+
+}
+#delete-icon:hover{
+    visibility: visible;
+}*/
